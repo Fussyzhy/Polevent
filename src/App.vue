@@ -5,11 +5,7 @@
 </script>
 
 <template>
-  <div>
-   {{ UserStore.token }}
-   <button @click="UserStore.setToken('asdadasdads')">登录</button>
-   <button @click="UserStore.removeToken()">退出登录</button>
-  </div>
+  <router-view></router-view>
 </template>
 
 <style scoped>

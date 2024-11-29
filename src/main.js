@@ -6,6 +6,7 @@ import '@/assets/main.scss'
 import pinia from '@/stores/index'
 
 const app = createApp(App)
+app.config.devtools = false
 
 app.use(pinia)
 // app.use(createPinia())
